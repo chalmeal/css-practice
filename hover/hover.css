@@ -1,0 +1,69 @@
+.card {
+    width: 400px;
+    height: 350px;
+    border-radius: 4px;
+    display: flex;
+    gap: 31px;
+    margin: auto;
+    margin-top: 5rem;
+    align-items: center;
+  }
+  
+  .card p {
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card p:hover {
+    flex: 10;
+  }
+  
+  .card p span {
+    min-width: 14em;
+    padding: .5em;
+    font-size: 20px;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .8s;
+    text-transform: uppercase;
+    color: #003854;
+    letter-spacing: .1em;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .card p:hover span {
+    transform: rotate(0);
+  }
+
+  .card .background-img-cat {
+    background: linear-gradient(to top,
+      rgba(200, 200, 200, 0.3) 100%,
+      rgba(200, 200, 200, 0.3) 100%), url("img/cat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .card .background-img-dog {
+    background: linear-gradient(to top,
+      rgba(200, 200, 200, 0.3) 100%,
+      rgba(200, 200, 200, 0.3) 100%), url("img/dog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .card .background-img-bird {
+    background: linear-gradient(to top,
+      rgba(200, 200, 200, 0.3) 100%,
+      rgba(200, 200, 200, 0.3) 100%), url("img/bird.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
